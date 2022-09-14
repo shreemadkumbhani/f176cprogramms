@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float i,j,k;
+
+clrscr();
+      printf("Enter Value of i ");
+      scanf("%f",&i);
+      printf("Your value of i is %f\n",i);
+
+      printf("Enter Value of j ");
+      scanf("%f",&j);
+      printf("Your value of j is %f\n",j);
+
+      printf("Enter Value of k ");
+      scanf("%f",&k);
+      printf("your value of k is %f\n",k);
+
+      printf("Press Any Key to Exit");
+
+
+getch();
+
+}
