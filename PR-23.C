@@ -1,0 +1,125 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{             //maximum num fron 5 numbers
+int a,b,c,d,e,max;
+clrscr();
+	printf("\nEnter Value of A :");
+	scanf("%d",&a);
+	printf("\nEnter Value of B :");
+	scanf("%d",&b);
+	printf("\nEnter Value of C :");
+	scanf("%d",&c);
+	printf("\nEnter Value of D :");
+	scanf("%d",&d);
+	printf("\nEnter Value of E :");
+	scanf("%d",&e);
+	if (a>b)
+	{
+		if (a>c)
+		{
+			if(a>d)
+			{
+				if(a>e)
+				{
+				max=a;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+			else
+			{
+				if(d>e)
+				{
+				max=d;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+		}
+		else
+		{
+			if(c>d)
+			{
+				if(c>e)
+				{
+				max=c;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+			else
+			{
+				if(d>e)
+				{
+				max=d;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+		}
+	}
+	else
+	{
+		if(b>c)
+		{
+			if(b>d)
+			{
+				if(b>e)
+				{
+				max=b;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+			else
+			{
+				if(d>e)
+				{
+				max=d;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+		}
+		else
+		{
+			if(c>d)
+			{
+				if(c>e)
+				{
+				max=c;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+			else
+			{
+				if(d>e)
+				{
+				max=d;
+				}
+				else
+				{
+				max=e;
+				}
+			}
+		 }
+	}
+	printf("\nThe maximum num is :%d",max);
+getch();
+}
