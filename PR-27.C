@@ -1,0 +1,18 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{        //1 to n with while loop
+int a,n;
+clrscr();
+	printf("Enter value to print until:");
+	scanf("%d",&n);
+	a=1;
+	while(a<=n)
+	{
+	printf("\n%d",a);
+	a++;
+	}
+
+
+getch();
+}
